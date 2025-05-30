@@ -12,7 +12,7 @@ Node Version: v22.1.0
 cp .env.example .env
 ```
 
-Note you need get [WEATHER_API_KEY](https://www.weatherapi.com/)
+Note you need to get [WEATHER_API_KEY](https://www.weatherapi.com/)
 
 ## Commands
 
