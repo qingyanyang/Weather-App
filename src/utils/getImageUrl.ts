@@ -13,10 +13,10 @@ export function getWeatherIcon2XUrl(name: string): string {
 export function getWeatherBGUrl(weatherIconCode: string): string {
   const name = getPreviewBg(weatherIconCode);
 
-  return new URL(`/src/assets/weatherBackground/${name}.png`, import.meta.url)
+  return new URL(`/src/assets/weatherBackground/${name}.webp`, import.meta.url)
     .href;
 }
 
 export function getCityBgUrl(name: string): string {
-  return new URL(`/src/assets/cityImages/${name}.png`, import.meta.url).href;
+  return new URL(`/src/assets/cityImages/${name}.webp`, import.meta.url).href;
 }
